@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+#root{
+    background-color: rgb(30, 161, 161);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    gap: 20px;
+}
+.outer{
+    background: url("https://th.bing.com/th/id/OIP.UhJfEO3fJuFkYnWdOvYP-AAAAA?pid=ImgDet&rs=1") no-repeat center center/cover;
+    background-clip: text;
+    color: transparent;
+}
+h1{
+    font-size: 100px;
+    font-family: 'Crimson Pro', serif;
+}
+.container{
+    width: 25%;
+    border: 1px solid blueviolet;
+    padding: 20px;
+    background-color: rgb(74, 141, 141);
+    border-radius: 15px ;
+}
+.display input{
+    border: none;
+    outline: 0;
+    text-align: right;
+    height:3rem;
+    width: 100%;
+    /* width: 16rem; */
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.display input:hover{
+    border: 1px solid rgb(152, 152, 189);
+}
+.calculator-buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.calculator-buttons input{
+    height: 4rem;
+}
+.calculator-buttons input:hover{
+    border: 1px solid rgb(124, 213, 124);
+}
+.calculator-buttons input[type="button"]{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+.span2{
+    grid-column: span 2;    
+}
