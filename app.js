@@ -37,6 +37,7 @@ const AppLayout= ()=>{
                 <input type="button" value="." onClick={(e)=> setText(text + e.target.value)}/>
                 <input type="button" value="0" onClick={(e)=> setText(text + e.target.value)}/>
                 <input type="button" value="=" className="span2" onClick={e => setText(eval(text))}/>
+                
             </div>
         </div>
         </>
